@@ -1,6 +1,7 @@
 import React from "react";
 import { Text } from "react-native";
 import styled from "styled-components";
+import Card from "./components/Card";
 
 export default class App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class App extends React.Component {
           <Name>Nisha</Name>
         </TitleBar>
         <Subtitle>Continue Learning</Subtitle>
+        <Card />
       </Container>
     );
   }
